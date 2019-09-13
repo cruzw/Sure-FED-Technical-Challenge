@@ -1,0 +1,40 @@
+{
+  "formFields": [{
+      "label": "First Name",
+      "name": "first_name"
+    },
+    {
+      "label": "Last Name",
+      "name": "last_name"
+    },
+    {
+      "label": "Address",
+      "name": "address_line_1"
+    },
+    {
+      "label": "Address L2 (Optional)",
+      "name": "address_line_2"
+    },
+    {
+      "label": "City",
+      "name": "address_city"
+    },
+    {
+      "label": "Region",
+      "name": "address_region"
+    },
+    {
+      "label": "Postal",
+      "name": "address_postal"
+    }
+  ],
+  "requiredFields": [
+    "first_name",
+    "last_name",
+    "address_line_1",
+    "address_city",
+    "address_region",
+    "address_postal"
+  ],
+  "quoteEndpoint": "https://fed-challenge.sure.now.sh/api/v1/quotes"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "sure-fed-technical-challenge",
+  "version": "1.0.0",
+  "description": "UI for Sure's Rocket Insurance Vertical",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/styles": "^4.4.1",
+    "delve": "^0.3.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzw/Sure-FED-Technical-Challenge.git"
+  },
+  "author": "Cruz Welborn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruzw/Sure-FED-Technical-Challenge/issues"
+  },
+  "homepage": "https://github.com/cruzw/Sure-FED-Technical-Challenge#readme"
+}
