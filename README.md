@@ -7,7 +7,7 @@
 Clone Repository
 
 ```
-git clone https://github.com/cruzw/FED-Challenge.git
+git clone https://github.com/cruzw/Sure-FED-Technical-Challenge.git
 ```
 
 Install dependencies
@@ -22,23 +22,18 @@ Run it locally in development mode
 npm run dev
 ```
 
-or
-
+run a production build locally:
 ```
-now dev
+npm run build && npm start
 ```
 
 ## Deployment
-
-to user acceptance testing (UAT) environment
+to Zeit's Now platform:
 ```
 now
-```
-to production
-```
-now --prod
 ```
 
 ## Built With
 
 * [Next.js](https://nextjs.org) - "The React Framework"
+* [Material-UI](material-ui.com) - Material Design React components
