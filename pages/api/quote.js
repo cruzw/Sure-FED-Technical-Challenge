@@ -13,7 +13,6 @@ const getFetchOptions = (body) => ({
 
 
 export default async (req, res) => {
-  console.log('quoteEndpoint', quoteEndpoint);
   const { body } = req;
   if (!body) {
     res.status(500).json({ error: "request body missing" });
@@ -24,11 +23,8 @@ export default async (req, res) => {
   let quoteData;
 
   try {
-    console.log('try fetchcall');
     const fetchCall = await fetch(quoteEndpoint, fetchOpts);
-    console.log('received fetchcall');
     quoteData = await fetchCall.json();
-    console.log('received fetchcall json');
   }
   catch (error) {
     res.status(500).json({ error });

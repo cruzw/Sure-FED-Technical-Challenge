@@ -81,8 +81,6 @@ export default class extends Component {
       address_line_2, address_city, address_region, address_postal
     } = this.state;
 
-    console.log('Index/Render/State', this.state, this.isFormComplete());
-
     let screen;
 
     if (!!this.state.error) {
